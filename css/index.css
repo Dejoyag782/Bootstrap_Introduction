@@ -1,1 +1,306 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(grey,#1a1d3e );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+			align-items: center;
+}
+header{
+    background-color: #1a1d3e;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: cyan;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    margin: 0 0 10px -10px;
+    padding: 0 0 0 5px;
+    display: flex;
+    
+    color: cyan;
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+header .header_logo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    padding: 5px 0 0 5px;
+    
+    
+}
+header .header_logo h1{
+    margin-left: 10px; 
+    text-align: left;
+    align-items: center;
+} 
+header .header_logo a img{
+    width: auto;
+    height: 45px;
+    border-radius: 10%;
+}
+header nav{
+    padding-left: 45px;
+    margin-right: 10px;
+}
+header nav ul{
+    list-style: none;
+			display: flex;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+header nav ul li{
+    color: white;
+    margin-right: 10px;    
+}
+header nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	transition: background-color 0.2s ease;
+	font-size: 1rem;
+}
 
+main{
+    margin-top: 200px; 
+    margin-bottom: 300px;  
+    margin-left: auto;
+    text-align: center;
+    color: cyan;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;        
+}
+
+main .BootstrapIntro{
+			width: auto; 
+			padding-bottom: 300px; 
+			display: flex;
+    flex-wrap: wrap;
+}
+main .BootstrapIntro section{
+			display: inline-block;
+			margin: auto; 
+}
+main .BootstrapIntro .WelcomeParent{
+			width: auto;
+			height: 10px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: cyan;
+    
+    
+}
+main .BootstrapIntro .WelcomeParent .Welcome{
+
+    text-align: left;
+    background-color: #1a1d3e;
+    padding: 10px;
+    box-shadow: 0px 2px 5px 2px rgba(0,255,255, 0.6);
+}
+main .BootstrapIntro .WelcomeParent .Welcome div{
+    margin: 10px;
+}
+main .BootstrapIntro .WelcomeParent .Welcome div .question{
+    margin-bottom: 10px;
+    font-size: 3em;
+    
+}
+main .BootstrapIntro .WelcomeParent .Welcome div .apply{
+    text-align: left;
+    font-size: 1.5em;
+    
+}
+main .BootstrapIntro .WelcomeParent .Welcome div a input{            
+    margin:40px 0 10px 0;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px 5px 5px 5px;
+    font-weight: bold;
+    color: cyan;
+    background-color:#1a1d3e;
+    border-color: cyan;
+    width: 100px;
+    height: 50px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+	/** For the Illustration **/
+
+
+body .illustration{
+    margin-top: 10px;
+    text-align: right;
+    color: cyan;
+    font-size: 1.5rem;
+}
+body .illustration label{
+    padding-top: 200px;
+    
+}
+body .illustration img{
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+
+ /** For the Article **/
+
+body .bootstrap{
+    Margin-top: 150px;
+    text-align: right;
+    font-size: 1.5rem;
+    border-color: cyan;
+    background-color: #1a1d3e;
+    border-width: 3px;
+    border-style: solid;
+}
+body .bootstrap .BootstrapInfo{
+    text-align: left;
+    margin-top: 10px;
+    padding: 20px;
+    
+}
+body .bootstrap .BootstrapInfo .Info .question{
+    margin-top: 10px;    
+    color: cyan;
+    
+    
+}
+body .bootstrap .BootstrapInfo .Info .tell{
+			margin-top: -10px;
+    text-align: left;
+    color: white;
+    text-align: justify;
+    
+}
+
+ /** for the Importance **/
+ .Importance{
+     margin-top: 100px;
+ }
+ 
+ 
+.Importance h1{  
+    color: cyan;
+    font-size: 2em;
+    
+}
+.Importance .choose_type{    
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px 30px 0 30px;
+    margin: auto;
+    
+}
+.Importance .choose_type section label{
+    font-size: 1em;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    color: cyan;
+}
+.Importance .choose_type section img{
+    width: auto;
+    height: 80px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+}
+.Importance .choose_type section{
+    border-style: solid;
+    box-shadow: 0px 5px 5px rgba(1, 1, 1, 0.2);
+    border-width: 5px;
+    padding: 10px 9px 10px 9px;
+    background-color: #1a1d3e;
+    color: white;
+    border-color: cyan;
+    text-align: center;    
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 250px;
+}
+.Importance .choose_type section div{
+     text-align: center;
+}
+.Importance .choose_type section p {
+     width: 200px;
+     white-space: normal;
+     overflow: visible;
+     text-overflow: ellipsis;
+     text-align: center;
+} 
+
+	/** Sample sitez **/
+.above_footer {
+    color: white;
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+    align-items: center;
+    text-align: center;
+}
+.above_footer div{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.above_footer div div{
+    text-align: center;
+    align-items: center;
+    margin: 10px 20px 20px 20px;
+}
+.above_footer div div img{
+    width: auto;
+    height: 100px;
+    margin-left: -10px;    
+    margin-bottom: -20px;
+    border-radius: 50%;
+}
+.above_footer div h1{
+    margin-left: -10px;
+    text-align: center;
+    align-items: center;
+}
+.above_footer div div h4{
+    margin-left: -10px;
+    text-align: center;
+    align-items: center;
+}
+
+/** FOR THE FOOTER**/
+
+footer{
+			padding: 50px;
+			margin: 0 -20px -20px -20px;
+    background-color: black;
+    color: white;
+}
+footer a input{            
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px 5px 5px 5px;
+    font-weight: bold;
+    color: white;    
+    background-color:black;
+    border-color: white;
+    width: 100px;
+    height: 50px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
